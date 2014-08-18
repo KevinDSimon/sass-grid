@@ -1,0 +1,42 @@
+/* Import compass reset module */
+@import "compass";
+
+/* Grid variables */
+$containerWidth: 1142;
+$columns: 24; 
+$columnWidth: ($containerWidth/$columns);
+$gutter: 10;
+$columnGutter: (($containerWidth/$gutter)/(($columns) - 1));
+
+/* Basic rules */
+img {
+  height: auto;
+  max-width: 100%;
+}
+.container {
+  position: relative;
+  @include pie-clearfix;
+}
+.row {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: $containerWidth;
+  @include pie-clearfix;
+}
+[class*="col"] {
+  float: left;
+  display: inline;
+  min-height: 1px;
+  position: relative;
+  margin-left: 1% * $columnGutter;
+    &:first-child {
+      margin-left: 0;
+    }
+}
+@for $i from 1 through $columns {
+  .col#{$i} {
+    $colWidth: 1% * ((($containerWidth/$gutter) * $i)/(($columns) - 1));
+    width: $colWidth;
+  }
+}
