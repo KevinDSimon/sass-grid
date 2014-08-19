@@ -3,10 +3,9 @@
 
 /* Grid variables */
 $containerWidth: 1142;
+$columnWidth: 4.96521739; 
 $columns: 24; 
-$columnWidth: ($containerWidth/$columns);
-$gutter: 10;
-$columnGutter: (($containerWidth/$gutter)/(($columns) - 1));
+$columnGutter: (100 - ($columnWidth * $columns)) / ($columns - 1);
 
 /* Basic rules */
 img {
@@ -36,7 +35,7 @@ img {
 }
 @for $i from 1 through $columns {
   .col#{$i} {
-    $colWidth: 1% * ((($containerWidth/$gutter) * $i)/(($columns) - 1));
-    width: $colWidth;
+    $colWidth: 1% * ($columnWidth * $i) + ($columnGutter *($i - 1));
+   width: $colWidth;
   }
 }

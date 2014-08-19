@@ -1,25 +1,21 @@
 /* Import compass reset module */
 /* Grid variables */
 /* Basic rules */
-/* line 12, ../sass/foundation.scss */
 img {
   height: auto;
   max-width: 100%;
 }
 
-/* line 16, ../sass/foundation.scss */
 .container {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 20, ../sass/foundation.scss */
 .row {
   width: 100%;
   margin: 0 auto;
@@ -27,142 +23,115 @@ img {
   max-width: 1142;
   *zoom: 1;
 }
-/* line 38, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 27, ../sass/foundation.scss */
 [class*="col"] {
   float: left;
   display: inline;
   min-height: 1px;
   position: relative;
-  margin-left: 4.96522%;
+  margin-left: -0.83327%;
 }
-/* line 33, ../sass/foundation.scss */
 [class*="col"]:first-child {
   margin-left: 0;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col1 {
   width: 4.96522%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col2 {
-  width: 9.93043%;
+  width: 9.09716%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col3 {
-  width: 14.89565%;
+  width: 13.22911%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col4 {
-  width: 19.86087%;
+  width: 17.36106%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col5 {
-  width: 24.82609%;
+  width: 21.49301%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col6 {
-  width: 29.7913%;
+  width: 25.62495%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col7 {
-  width: 34.75652%;
+  width: 29.7569%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col8 {
-  width: 39.72174%;
+  width: 33.88885%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col9 {
-  width: 44.68696%;
+  width: 38.02079%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col10 {
-  width: 49.65217%;
+  width: 42.15274%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col11 {
-  width: 54.61739%;
+  width: 46.28469%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col12 {
-  width: 59.58261%;
+  width: 50.41664%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col13 {
-  width: 64.54783%;
+  width: 54.54858%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col14 {
-  width: 69.51304%;
+  width: 58.68053%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col15 {
-  width: 74.47826%;
+  width: 62.81248%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col16 {
-  width: 79.44348%;
+  width: 66.94442%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col17 {
-  width: 84.4087%;
+  width: 71.07637%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col18 {
-  width: 89.37391%;
+  width: 75.20832%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col19 {
-  width: 94.33913%;
+  width: 79.34026%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col20 {
-  width: 99.30435%;
+  width: 83.47221%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col21 {
-  width: 104.26957%;
+  width: 87.60416%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col22 {
-  width: 109.23478%;
+  width: 91.73611%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col23 {
-  width: 114.2%;
+  width: 95.86805%;
 }
 
-/* line 38, ../sass/foundation.scss */
 .col24 {
-  width: 119.16522%;
+  width: 100%;
 }
